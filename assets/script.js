@@ -6,3 +6,16 @@ hamMenu.addEventListener("click", () => {
   hamMenu.classList.toggle("active");
   offScreenMenu.classList.toggle("active");
 });
+
+
+// navbar animation
+
+document.addEventListener('scroll', () => {
+  const navbar = document.querySelector('#navbar');
+
+  if (window.scrollY > 0) {
+      navbar.classList.add('scrolled');
+  } else {
+      navbar.classList.remove('scrolled');
+  }
+});

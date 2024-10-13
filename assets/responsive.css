@@ -1,0 +1,27 @@
+/* mobile menu */
+
+@media  screen  and (max-width: 800px) {
+
+    .desktop-navbar{
+        display: none;
+    }
+
+    .mobile-navbar{
+        display: block;
+    }
+
+}
+
+@media screen and (min-width: 300px) and (max-width: 500px) {
+  .navbar-container {
+    width: 100%;
+  }
+
+  .navbar-right {
+    width: 100px;
+  }
+
+  .navbar-right > .donate-btn {
+    display: none;
+  }
+}
