@@ -8,7 +8,7 @@ hamMenu.addEventListener("click", () => {
 });
 
 
-// navbar animation
+// header animation
 
 document.addEventListener('scroll', () => {
   const navbar = document.querySelector('#navbar');

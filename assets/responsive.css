@@ -1,27 +1,202 @@
-/* mobile menu */
+/* mobile screen */
+@media screen and (min-width : 300px) and (max-width : 499px) {
 
-@media  screen  and (max-width: 800px) {
+  /* desktop-navbar hide */
+  .desktop-navbar {
+    display: none;
+  }
 
-    .desktop-navbar{
-        display: none;
-    }
+  #navbar{
+    position: fixed;
+  }
 
-    .mobile-navbar{
-        display: block;
-    }
+  .mobile-navbar-right > .donate-btn{
+    display: none;
+  }
+
+  .mobile-navbar-right{
+    min-width: 100px;
+  }
+
+  .hero-section{
+    flex-direction: column-reverse;
+    padding: 1em;
+  }
+
+
+  .hero-left{
+    width: 100%;
+    height: 50%;
+  }
+
+  .hero-right{
+    width: 80%;
+  }
+
+  .hero-right-container{
+    background-position: left;
+  }
+
+  .hero-section h1{
+    font-size: 2em;
+  }
+
+  .hero-section h1{
+    font-size: 3.5em;
+  }
+
+  .section-2{
+    flex-direction: column;
+  }
+
+  .section-2-left{
+    width: 60%;
+    height: 300px;
+  }
+
+  .section-2-right{
+    width: 100%;
+    height: 350px;
+    padding: 1em;
+  }
+
+  .section-2-right-desc{
+    gap: 10px;
+  }
+
+  h2{
+    font-size: 1.5em;
+  }
+}
+
+/* large mobile screen */
+@media screen and (min-width : 500px) and (max-width : 767px) {
+
+  /* desktop-navbar hide */
+  .desktop-navbar {
+    display: none;
+  }
+
+  #navbar{
+    position: fixed;
+  }
+
+  .hero-section{
+    flex-direction: column-reverse;
+    padding: 2em;
+    margin-top: 1em;
+  }
+
+
+  .hero-left{
+    width: 100%;
+    height: 40%;
+  }
+
+  .hero-right{
+    width: 80%;
+    height: 60%;
+  }
+
+  .hero-section h1{
+    font-size: 3.5em;
+  }
+
+  .section-2{
+    flex-direction: column;
+  }
+
+  .section-2-left{
+    width: 60%;
+    height: 300px;
+  }
+
+  .section-2-right{
+    width: 100%;
+    height: 350px;
+  }
+
+  h2{
+    font-size: 2em;
+  }
 
 }
 
-@media screen and (min-width: 300px) and (max-width: 500px) {
-  .navbar-container {
-    width: 100%;
-  }
+/* tablet screen */
+@media screen and (min-width : 768px) and (max-width : 1000px) {
 
-  .navbar-right {
-    width: 100px;
-  }
-
-  .navbar-right > .donate-btn {
+  /* desktop-navbar hide */
+  .desktop-navbar {
     display: none;
   }
+
+  #navbar{
+    position: fixed;
+  }
+
+  .hero-section{
+    padding: 1em  ;
+  }
+
+  .hero-left{
+    width: 55%;
+    top: -10%;
+  }
+
+  .hero-right{
+    height: 50%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+
+  .hero-section h1{
+    font-size: 4em;
+  }
+
+  .section-2-left{
+    width: 40%;
+    height: 400px;
+    top: -10%;
+  }
+
+  .section-2-right{
+    width: 55%;
+    top: 10%;
+    height: 450px;
+  }
+
+  h2{
+    font-size: 2em;
+  }
+
+}
+
+/* laptop screen */
+@media screen and (min-width : 1001px) and (max-width : 1440px) {
+
+  /* mobile-navbar hide */
+  .mobile-navbar {
+    display: none;
+  }
+}
+
+/* desktop screen */
+@media screen and (min-width : 1441px) and (max-width : 1920px) {
+
+  /* mobile-navbar hide */
+  .mobile-navbar {
+    display: none;
+  }
+
+}
+
+/* 2k screen */
+@media screen and (min-width : 1921px) {
+
+  /* mobile-navbar hide */
+  .mobile-navbar {
+    display: none;
+  }
+
 }
