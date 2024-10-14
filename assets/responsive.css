@@ -67,6 +67,23 @@
   h2{
     font-size: 1.5em;
   }
+
+  .service p{
+    font-size: 0.8em;
+  }
+
+  .service > img{
+    width: 30px;
+    height: 30px;
+  }
+  .section-3-container{
+    padding: 1em;
+  }
+
+  .card{
+    width: 270px;
+    height: 270px;
+  }
 }
 
 /* large mobile screen */
@@ -120,6 +137,9 @@
     font-size: 2em;
   }
 
+  .service p{
+    font-size: 1em;
+  }
 }
 
 /* tablet screen */
@@ -170,6 +190,9 @@
     font-size: 2em;
   }
 
+  .service p{
+    font-size: 1em;
+  }
 }
 
 /* laptop screen */
