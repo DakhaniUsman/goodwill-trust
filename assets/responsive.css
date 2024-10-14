@@ -84,6 +84,28 @@
     width: 270px;
     height: 270px;
   }
+
+
+  .testimonial-body{
+    flex-direction: column;
+  }
+
+  .testimonial-left{
+    width: 100%;
+  }
+
+  .testimonial-right{
+    position: relative;
+    width: 100%;
+  }
+
+  .quote{
+    font-size: 1.2em;
+  }
+
+  .testimonial-container{
+    padding: 1em;
+  }
 }
 
 /* large mobile screen */
@@ -140,6 +162,21 @@
   .service p{
     font-size: 1em;
   }
+
+  .testimonial-body{
+    flex-direction: column;
+  }
+
+  .testimonial-left{
+    width: 100%;
+  }
+
+  .testimonial-right{
+    position: relative;
+    width: 100%;
+  }
+
+
 }
 
 /* tablet screen */
@@ -193,6 +230,20 @@
   .service p{
     font-size: 1em;
   }
+
+  .testimonial-body{
+    flex-direction: column;
+  }
+
+  .testimonial-left{
+    width: 100%;
+  }
+
+  .testimonial-right{
+    position: relative;
+    width: 100%;
+  }
+
 }
 
 /* laptop screen */
