@@ -6,6 +6,7 @@
     <title>Goodwill Trust - NGO</title>
     <link rel="stylesheet" href="./assets/styles.css">
     <link rel="stylesheet" href="./assets/responsive.css">
+    <link rel="stylesheet" href="./assets/animation.css">
 
     <!-- fonts -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
@@ -27,15 +28,15 @@
                     <div class="logo">
                         <div class="logo-container">
                             <a href="#">
-                                <img src="./assets/img/logo/logo-3.png" alt="logo 1">
+                                <img src="./assets/img/logo/logo-1.png" alt="logo 1">
                             </a>
                         </div>
                     </div>
                     <div class="navigations">
                         <ul class="navigations-list">
                             <li><a href="./index.html">Home</a></li>
-                            <li><a href="./about.html">About Us</a></li>
-                            <li><a href="#">What We Do</a></li>
+                            <li><a href="./aboutus.html">About Us</a></li>
+                            <li><a href="./what-we-do.html">What We Do</a></li>
                             <li><a href="#">Get Involved</a></li>
                         </ul>
                     </div>
@@ -49,14 +50,14 @@
                     <div class="logo">
                         <div class="logo-container">
                             <a href="#">
-                                <img src="./assets/img/logo/logo-3.png" alt="logo 1">
+                                <img src="./assets/img/logo/logo-1.png" alt="logo 1">
                             </a>
                         </div>
                     </div>
                     <div class="mobile-navbar-right">
                         <div class="donate-btn">
                             <a href="#">Donate</a>
-                    </div>
+                        </div>
                     <div class="hamMenu">
                         <span></span>
                         <span></span>
@@ -66,8 +67,8 @@
                     <div class="offScreenMenu">
                         <ul class="offScreenMenu-list">
                             <li><a href="./index.html">Home</a></li>
-                            <li><a href="./about.html">About Us</a></li>
-                            <li><a href="#">What We Do</a></li>
+                            <li><a href="./aboutus.html">About Us</a></li>
+                            <li><a href="./what-we-do.html">What We Do</a></li>
                             <li><a href="#">Get Involved</a></li>
                             <li>
                                 <div class="donate-btn">
@@ -82,13 +83,13 @@
             <!-- body -->
             <div id="body">
                 <div class="body-container">
-                    <section>
+                    <section class="hidden">
                         <div class="hero-section">
                             <div class="hero-left">
                                 <div class="hero-left-desc">
                                     <h3>OUR MISSION IS SIMPLE</h3>
                                     <h1>Stop deaths from <span class="text-animation">blood</span> cancer </h1>
-                                    <a href="#"><p>Learn More</p></a>
+                                    <!-- <a href="#"><p>Learn More</p></a> -->
                                 </div>
                             </div>
                             <div class="hero-right">
@@ -98,7 +99,7 @@
                         </div>
                     </section>
 
-                    <section>
+                    <section class="hidden">
                         <div class="section-2">
                             <div class="section-2-left">
                                 <div class="section-2-left-container">
@@ -119,13 +120,13 @@
                         </div>
                     </section>
 
-                    <section>
+                    <section class="hidden">
                         <div class="section-3">
                             <div class="section-3-container">
 
                                 <div class="section-3-headings">
-                                    <h3>WHAT WE DO </h3>
-                                    <h2>How we help</h2>
+                                    <h3>WHAT WE DO</h3>
+                                    <h2><span class="text-animation">How we help</span></h2>
                                 </div>
                                 <div class="section-3-body">
                                     <div class="service">
@@ -149,12 +150,12 @@
                         </div>
                     </section>
 
-                    <section>
+                    <section class="hidden">
                         <div class="impact-section">
                             <div class="impact-section-container">
                                 <div class="impact-heading">
                                     <h3>IMPACT</h3>
-                                    <h2>This is the impact <span>you</span> helped us achieve</h2>
+                                    <h2>This is the impact <span class="text-animation">you</span> helped us achieve</h2>
                                 </div>
                                 <div class="impact-body">
                                     <div class="cards">
@@ -260,12 +261,12 @@
                         </div>
                     </section>
 
-                    <section>
+                    <section class="hidden">
                         <div class="testimonial-section">
                             <div class="testimonial-container">
                                 <div class="headings">
                                     <h3>STORIES</h3>
-                                    <h2>Stories of Hope</h2>
+                                    <h2><span class="text-animation">Stories of Hope</span></h2>
                                 </div>
                                 <div class="testimonial-body">
                                     <div class="testimonial-left">
@@ -309,8 +310,8 @@
                     <div class="footer-navigations">
                         <div class="navigations">
                             <ul class="navigations-list">
-                                <li><a href="./about.html">About Us</a></li>
-                                <li><a href="#">What We Do</a></li>
+                                <li><a href="./aboutus.html">About Us</a></li>
+                                <li><a href="./what-we-do.html">What We Do</a></li>
                                 <li><a href="#">Get Involved</a></li>
                             </ul>
                         </div>
@@ -335,12 +336,13 @@
                         <div class="main-footer-container">
                             <div class="contact">
                                 <i class='bx bxs-phone'></i>
-                                <a href="tel:+919326219059">Reach out us</a>
+                                <a href="tel:+911234567890">
+                                    +911234567890
+                                    <br>
+                                    Reach out us</a>
                             </div>
                             <div class="copyright">
-                                <p>© 2024 Goodwill foundation by <a href="#">
-                                    Eclipse Digitals
-                                </a></p>
+                                <p>© 2024 Goodwill foundation</p>
                             </div>
                         </div>
                     </div>
@@ -350,5 +352,6 @@
     </div>
 
     <script src="./assets/script.js"></script>
+    <script defer src="./assets/animation.js"></script>
 </body>
 </html>
