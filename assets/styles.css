@@ -1195,11 +1195,16 @@ input[type="text"], input[type="number"], input[type="email"], input[type="tel"]
 }
 
 button {
-    background-color: #4ade80; /* Mint Green */
+    background-color: #5881fa;
     color: white;
     border: none;
     padding: 15px;
     border-radius: 5px;
     cursor: pointer;
     margin-top: 20px;
+}
+
+button:hover {
+    background-color: #4169e1; /* Darker Mint Green */
+    transition: all .3s ease;
 }
