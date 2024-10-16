@@ -233,6 +233,10 @@
   .owner-thoughts q{
     font-size: 1.2em;
   }
+
+  .hero-desc{
+    font-size: 1.5em;
+  }
 }
 
 /* large mobile screen */
@@ -376,6 +380,10 @@
   .women-empowerment-img-3{
     display: none;
 
+  }
+
+  .hero-desc{
+    font-size: 1.5em;
   }
 
 }
