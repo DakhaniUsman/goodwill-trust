@@ -147,6 +147,11 @@
     text-align: center;
   }
 
+  .what-we-do-service{
+    padding:  1em ;
+  }
+
+
 
   .what-we-do-hero-heading h1{
     font-size: 2em;
@@ -155,21 +160,48 @@
   .service-desc{
     height: 500px;
     flex-direction: column-reverse;
-    padding: 1em;
+  }
+
+  .service-images{
+    height: 300px;
   }
 
   .service-left{
     width: 100%;
+    gap: 10px;
   }
+
 
   .service-right{
     width: 100%;
-    height: 45%;
+    height: 40%;
   }
 
   .service-right-desc{
     width: 100%;
     align-items: center;
+    flex-direction: row;
+  }
+
+  .cancer-patient-img-1{
+    top: 0px;
+  }
+
+  .cancer-patient-img-2{
+    display: none;
+  }
+
+  .cancer-patient-img-3{
+    display: none;
+  }
+
+
+  .what-we-do-service:nth-child(2) .service-desc{
+    flex-direction: column-reverse;
+  }
+
+  .child-img-1{
+    top: 0px;
   }
 
   .child-img-2{
@@ -178,6 +210,28 @@
 
   .child-img-3{
     display: none;
+  }
+
+  .women-empowerment-img-1{
+    top: 0px;
+  }
+
+  .women-empowerment-img-2{
+    display: none;
+  }
+
+  .women-empowerment-img-3{
+    display: none;
+
+  }
+
+  .owner-thoughts{
+    width: 100%;
+    padding: 1em;
+  }
+
+  .owner-thoughts q{
+    font-size: 1.2em;
   }
 }
 
@@ -269,6 +323,10 @@
     padding: 2em 3em;
   }
 
+  .what-we-do-service:nth-child(2) .service-desc{
+    flex-direction: column-reverse;
+  }
+
   .service-left{
     width: 100%;
   }
@@ -282,7 +340,21 @@
     align-items: center;
   }
 
+  .cancer-patient-img-1{
+    top: 0px;
+  }
 
+  .cancer-patient-img-2{
+    display: none;
+  }
+
+  .cancer-patient-img-3{
+    display: none;
+  }
+
+  .child-img-1{
+    top: 0px;
+  }
 
   .child-img-2{
     display: none;
@@ -290,6 +362,27 @@
 
   .child-img-3{
     display: none;
+  }
+
+
+  .women-empowerment-img-1{
+    top: 0px;
+  }
+
+  .women-empowerment-img-2{
+    display: none;
+  }
+
+  .women-empowerment-img-3{
+    display: none;
+
+  }
+
+}
+
+@media screen and (min-width: 1000px) and (max-width : 1060px){
+  .child-img-3{
+    top: -70px;
   }
 }
 
@@ -358,11 +451,21 @@
     width: 100%;
   }
 
+  .service-desc{
+    padding: 0px 1em;
+  }
+
+  .cancer-patient-img-2{
+    display: none;
+  }
 
   .child-img-2{
     display: none;
   }
 
+  .women-empowerment-img-2{
+    display: none;
+  }
 }
 
 /* laptop screen */

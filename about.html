@@ -4,16 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Goodwill Trust - NGO</title>
-    <link rel="stylesheet" href="./assets/styles.css">
+    <link rel="stylesheet" href="assets/styles.css">
     <link rel="stylesheet" href="./assets/responsive.css">
-    <link rel="stylesheet" href="./assets/animation.css">
 
-    <!-- fonts -->
+
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
     <!-- icons -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
+    <!-- CSS Libraries -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="lib/flaticon/font/flaticon.css" rel="stylesheet">
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+  </head>
 
 </head>
 <body>
@@ -28,7 +39,7 @@
                     <div class="logo">
                         <div class="logo-container">
                             <a href="#">
-                                <img src="./assets/img/logo/logo-3.png" alt="logo 1">
+                                <img src="./assets/img/logo/logo-1.png" alt="logo 1">
                             </a>
                         </div>
                     </div>
@@ -36,7 +47,7 @@
                         <ul class="navigations-list">
                             <li><a href="./index.html">Home</a></li>
                             <li><a href="./about.html">About Us</a></li>
-                            <li><a href="#">What We Do</a></li>
+                            <li><a href="./what-we-do.html">What We Do</a></li>
                             <li><a href="#">Get Involved</a></li>
                         </ul>
                     </div>
@@ -50,14 +61,14 @@
                     <div class="logo">
                         <div class="logo-container">
                             <a href="#">
-                                <img src="./assets/img/logo/logo-3.png" alt="logo 1">
+                                <img src="./assets/img/logo/logo-1.png" alt="logo 1">
                             </a>
                         </div>
                     </div>
                     <div class="mobile-navbar-right">
                         <div class="donate-btn">
                             <a href="#">Donate</a>
-                    </div>
+                        </div>
                     <div class="hamMenu">
                         <span></span>
                         <span></span>
@@ -68,7 +79,7 @@
                         <ul class="offScreenMenu-list">
                             <li><a href="./index.html">Home</a></li>
                             <li><a href="./about.html">About Us</a></li>
-                            <li><a href="#">What We Do</a></li>
+                            <li><a href="./what-we-do.html">What We Do</a></li>
                             <li><a href="#">Get Involved</a></li>
                             <li>
                                 <div class="donate-btn">
@@ -80,77 +91,356 @@
                 </nav>
             </header>
 
-            <!-- body -->
             <div id="body">
-                <div class="body-container">
-                    <section>
-                        <div class="about-hero-section">
-                            <div class="about-heading">
-                            <h2>About Us</h2>
-                            <h1>We make the best
-                                <br>
-                                for all our children</h1>
-                            </div>
-                        </div>
-                    </section>
+                 <!-- Page Header Start -->
+        <div class="page-header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2>About Us</h2>
+                    </div>
+                    <div class="col-12">
+                        <a href="">Home</a>
+                        <a href="">About Us</a>
+                    </div>
                 </div>
             </div>
+        </div>
+        <!-- Page Header End -->
 
-            <!-- footer -->
-            <footer id="footer">
-                <div class="footer-container">
-                    <div class="cta">
-                        <h2>Help support
-                            people in need
-                        </h2>
-                        <div class="donate-btn">
-                            <a href="#">Donate</a>
-                        </div>
+
+        <!-- About Start -->
+        <div class="about">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <div class="about-img" data-parallax="scroll" data-image-src="assets/img/about-hero-img-3.jpg"></div>
                     </div>
-                    <div class="footer-navigations">
-                        <div class="navigations">
-                            <ul class="navigations-list">
-                                <li><a href="./about.html">About Us</a></li>
-                                <li><a href="#">What We Do</a></li>
-                                <li><a href="#">Get Involved</a></li>
+                    <div class="col-lg-6">
+                        <div class="section-header">
+                            <p>Learn About Us</p>
+                            <h2>Worldwide non-profit charity organization</h2>
+                        </div>
+                        <div class="about-tab">
+                            <ul class="nav nav-pills nav-justified">
+                                <li class="nav-item">
+                                    <a class="nav-link active" data-toggle="pill" href="#tab-content-1">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-toggle="pill" href="#tab-content-2">Mission</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-toggle="pill" href="#tab-content-3">Vision</a>
+                                </li>
                             </ul>
-                        </div>
-                    </div>
-                    <div class="social-links">
-                        <div class="social-links-container">
-                            <div class="social-icon">
-                                <a href="#"><i class='bx bxl-facebook-circle'></i></a>
-                            </div>
-                            <div class="social-icon">
-                                <a href="#"><i class="bx bxl-twitter"></i></a>
-                            </div>
-                            <div class="social-icon">
-                                <a href="#"><i class="bx bxl-instagram"></i></a>
-                            </div>
-                            <div class="social-icon">
-                                <a href="#"><i class="bx bxl-linkedin"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="main-footer">
-                        <div class="main-footer-container">
-                            <div class="contact">
-                                <i class='bx bxs-phone'></i>
-                                <a href="tel:+911234567890">
-                                    +911234567890
-                                    <br>
-                                    Reach out us</a>
-                            </div>
-                            <div class="copyright">
-                                <p>© 2024 Goodwill foundation</p>
+
+                            <div class="tab-content">
+                                <div id="tab-content-1" class="container tab-pane active">
+                                    Our NGO is dedicated to making a difference by supporting cancer patients, especially those battling blood cancer, providing relief to underprivileged communities, and empowering women through education and skill-building programs. Our mission is to create lasting change by addressing key societal challenges and improving lives through compassion and direct action.
+                                </div>
+                                <div id="tab-content-2" class="container tab-pane fade">
+                                    <ul>
+                                        <li>
+                                            <i class='bx bx-chevrons-right'></i>
+                                            Provide financial and medical assistance to cancer patients, particularly those suffering from blood cancer</li>
+                                        <li>
+                                            <i class='bx bx-chevrons-right'></i>
+                                            Alleviate poverty by supporting underprivileged families with essential needs and educational resources</li>
+                                        <li>
+                                            <i class='bx bx-chevrons-right'></i>
+                                            Empower women through education, skill-building workshops, and financial independence programs
+                                        </li>
+                                        <li>
+                                            <i class='bx bx-chevrons-right'></i>
+                                            Promote community health by organizing health camps and awareness initiatives in rural areas
+                                        </li>
+                                        <li>
+                                            <i class='bx bx-chevrons-right'></i>
+                                            Support children’s welfare, focusing on the education and well-being of orphaned and underprivileged children
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div id="tab-content-3" class="container tab-pane fade">
+                                    <p>Our vision is to create a society where no one faces poverty, illness, or inequality alone. We aim to ensure that cancer patients, especially those with blood cancer, receive the care and support they need, and that everyone has access to healthcare and education</p>
+                                    <p>We also strive for a world where women are empowered through education and skills, and children from underprivileged backgrounds grow in a supportive environment. Our goal is to build resilient communities that can overcome challenges and work toward a better future</p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </footer>
+            </div>
+        </div>
+        <!-- About End -->
+
+
+        <!-- Facts Start -->
+        <div class="facts" data-parallax="scroll" data-image-src="assets/img/facts.jpg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="facts-item">
+                            <i class="flaticon-home"></i>
+                            <div class="facts-text">
+                                <h3 class="facts-plus" data-toggle="counter-up">150</h3>
+                                <p>Helped</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="facts-item">
+                            <i class="flaticon-charity"></i>
+                            <div class="facts-text">
+                                <h3 class="facts-plus" data-toggle="counter-up">400</h3>
+                                <p>Volunteers</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="facts-item">
+                            <i class="flaticon-kindness"></i>
+                            <div class="facts-text">
+                                <h3 class="facts-dollar" data-toggle="counter-up">6</h3>
+                                <p>Experience</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="facts-item">
+                            <i class="flaticon-donation"></i>
+                            <div class="facts-text">
+                                <h3 class="facts-dollar" data-toggle="counter-up">100000</h3>
+                                <p>Raised</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Facts End -->
+
+
+        <!-- Team Start -->
+        <div class="team">
+            <div class="container">
+                <div class="section-header text-center">
+                    <p>Meet Our Team</p>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="team-item">
+                            <div class="team-img">
+                                <img src="assets/img/team-1.jpg" alt="Team Image">
+                            </div>
+                            <div class="team-text">
+                                <h2>Donald John</h2>
+                                <p>Founder & CEO</p>
+                                <div class="team-social">
+                                    <a href=""><i class="fab fa-twitter"></i></a>
+                                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                    <a href=""><i class="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="team-item">
+                            <div class="team-img">
+                                <img src="assets/img/team-2.jpg" alt="Team Image">
+                            </div>
+                            <div class="team-text">
+                                <h2>Adam Phillips</h2>
+                                <p>Chef Executive</p>
+                                <div class="team-social">
+                                    <a href=""><i class="fab fa-twitter"></i></a>
+                                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                    <a href=""><i class="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="team-item">
+                            <div class="team-img">
+                                <img src="assets/img/team-3.jpg" alt="Team Image">
+                            </div>
+                            <div class="team-text">
+                                <h2>Thomas Olsen</h2>
+                                <p>Chef Advisor</p>
+                                <div class="team-social">
+                                    <a href=""><i class="fab fa-twitter"></i></a>
+                                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                    <a href=""><i class="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="team-item">
+                            <div class="team-img">
+                                <img src="assets/img/team-4.jpg" alt="Team Image">
+                            </div>
+                            <div class="team-text">
+                                <h2>James Alien</h2>
+                                <p>Advisor</p>
+                                <div class="team-social">
+                                    <a href=""><i class="fab fa-twitter"></i></a>
+                                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                    <a href=""><i class="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Team End -->
+
+
+        <!-- Testimonial Start -->
+        <div class="testimonial">
+            <div class="container">
+                <div class="section-header text-center">
+                    <p>Testimonial</p>
+                    <h2>What people are talking about our charity activities</h2>
+                </div>
+                <div class="owl-carousel testimonials-carousel">
+                    <div class="testimonial-item">
+                        <div class="testimonial-profile">
+                            <img src="assets/img/testimonial-1.jpg" alt="Image">
+                            <div class="testimonial-name">
+                                <h3>Person Name</h3>
+                                <p>Profession</p>
+                            </div>
+                        </div>
+                        <div class="testimonial-text">
+                            <p>
+                                Lorem ipsum dolor sit amet elit. Phasel preti mi facilis ornare velit non vulputa. Aliqu metus tortor, auctor id gravid vivera quis
+                            </p>
+                        </div>
+                    </div>
+                    <div class="testimonial-item">
+                        <div class="testimonial-profile">
+                            <img src="assets/img/testimonial-2.jpg" alt="Image">
+                            <div class="testimonial-name">
+                                <h3>Person Name</h3>
+                                <p>Profession</p>
+                            </div>
+                        </div>
+                        <div class="testimonial-text">
+                            <p>
+                                Lorem ipsum dolor sit amet elit. Phasel preti mi facilis ornare velit non vulputa. Aliqu metus tortor, auctor id gravid vivera quis
+                            </p>
+                        </div>
+                    </div>
+                    <div class="testimonial-item">
+                        <div class="testimonial-profile">
+                            <img src="assets/img/testimonial-3.jpg" alt="Image">
+                            <div class="testimonial-name">
+                                <h3>Person Name</h3>
+                                <p>Profession</p>
+                            </div>
+                        </div>
+                        <div class="testimonial-text">
+                            <p>
+                                Lorem ipsum dolor sit amet elit. Phasel preti mi facilis ornare velit non vulputa. Aliqu metus tortor, auctor id gravid vivera quis
+                            </p>
+                        </div>
+                    </div>
+                    <div class="testimonial-item">
+                        <div class="testimonial-profile">
+                            <img src="assets/img/testimonial-4.jpg" alt="Image">
+                            <div class="testimonial-name">
+                                <h3>Person Name</h3>
+                                <p>Profession</p>
+                            </div>
+                        </div>
+                        <div class="testimonial-text">
+                            <p>
+                                Lorem ipsum dolor sit amet elit. Phasel preti mi facilis ornare velit non vulputa. Aliqu metus tortor, auctor id gravid vivera quis
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Testimonial End -->
+
+                    <!-- footer -->
+                    <footer id="footer">
+                        <div class="footer-container">
+                            <div class="cta">
+                                <h2>Help support
+                                    people in need
+                                </h2>
+                                <div class="donate-btn">
+                                    <a href="#">Donate</a>
+                                </div>
+                            </div>
+                            <div class="footer-navigations">
+                                <div class="navigations">
+                                    <ul class="navigations-list">
+                                        <li><a href="./index.html">Home</a></li>
+                                        <li><a href="./what-we-do.html">What We Do</a></li>
+                                        <li><a href="#">Get Involved</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="social-links">
+                                <div class="social-links-container">
+                                    <div class="social-icon">
+                                        <a href="#"><i class='bx bxl-facebook-circle'></i></a>
+                                    </div>
+                                    <div class="social-icon">
+                                        <a href="#"><i class="bx bxl-twitter"></i></a>
+                                    </div>
+                                    <div class="social-icon">
+                                        <a href="#"><i class="bx bxl-instagram"></i></a>
+                                    </div>
+                                    <div class="social-icon">
+                                        <a href="#"><i class="bx bxl-linkedin"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="main-footer">
+                                <div class="main-footer-container">
+                                    <div class="contact">
+                                        <i class='bx bxs-phone'></i>
+                                        <a href="tel:+911234567890">
+                                            +911234567890
+                                            <br>
+                                            Reach out us</a>
+                                    </div>
+                                    <div class="copyright">
+                                        <p>© 2024 Goodwill foundation</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </footer>
+
+            </div>
         </div>
     </div>
 
-    <script src="./assets/script.js"></script>
-    <script defer src="./assets/animation.js"></script>
+    <script src="assets/script.js"></script>
+      <!-- JavaScript Libraries -->
+      <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+      <script src="lib/easing/easing.min.js"></script>
+      <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+      <script src="lib/waypoints/waypoints.min.js"></script>
+      <script src="lib/counterup/counterup.min.js"></script>
+      <script src="lib/parallax/parallax.min.js"></script>
+
+
+      <!-- Template Javascript -->
+      <script src="js/main.js"></script>
+  </body>
+</html>
+
 </body>
+</html>
