@@ -4,6 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Goodwill Foundation - NGO</title>
+
+    <!-- seo practices -->
+    <meta name="description" content="Empowering communities through cancer patient support, poverty alleviation, women empowerment, education, and healthcare initiatives. Join us in making a lasting impact">
+    <meta name="keywords" content="cancer patient support, blood cancer assistance, poverty alleviation, women empowerment, child welfare, healthcare initiatives, educational support, NGO services, community development, charity organization">
+
+
+
+
+
+    <!-- stylesheets -->
     <link rel="stylesheet" href="./assets/styles.css">
     <link rel="stylesheet" href="./assets/responsive.css">
     <link rel="stylesheet" href="./assets/animation.css">
@@ -28,7 +38,7 @@
                     <div class="logo">
                         <div class="logo-container">
                             <a href="#">
-                                <img src="./assets/img/logo/logo-3.png" alt="goodwill logo">
+                                <img src="./assets/img/logo/logo-1.png" alt="goodwill foundation" title="goodwill foundation">
                             </a>
                         </div>
                     </div>
@@ -36,7 +46,7 @@
                         <ul class="navigations-list">
                             <li><a href="./index.html">Home</a></li>
                             <li><a href="./about.html">About Us</a></li>
-                            <li><a href="#">What We Do</a></li>
+                            <li><a href="./what-we-do.html">What We Do</a></li>
                             <li><a href="./get-involved.html">Get Involved</a></li>
                         </ul>
                     </div>
@@ -50,14 +60,14 @@
                     <div class="logo">
                         <div class="logo-container">
                             <a href="#">
-                                <img src="./assets/img/logo/logo-3.png" alt="goodwill logo">
+                                <img src="./assets/img/logo/logo-1.png" alt="goodwill foundation" title="goodwill foundation">
                             </a>
                         </div>
                     </div>
                     <div class="mobile-navbar-right">
                         <div class="donate-btn">
                             <a href="./get-involved.html">Donate</a>
-                    </div>
+                        </div>
                     <div class="hamMenu">
                         <span></span>
                         <span></span>
@@ -68,7 +78,7 @@
                         <ul class="offScreenMenu-list">
                             <li><a href="./index.html">Home</a></li>
                             <li><a href="./about.html">About Us</a></li>
-                            <li><a href="#">What We Do</a></li>
+                            <li><a href="./what-we-do.html">What We Do</a></li>
                             <li><a href="./get-involved.html">Get Involved</a></li>
                             <li>
                                 <div class="donate-btn">
@@ -80,18 +90,56 @@
                 </nav>
             </header>
 
-            <!-- body -->
             <div id="body">
                 <div class="body-container">
-                    <section>
-                        <div class="about-hero-section">
-                            <div class="about-heading">
-                            <h2>About Us</h2>
-                            <h1>We make the best
-                                <br>
-                                for all our children</h1>
-                            </div>
+                    <div class="hero">
+                        <div class="hero-desc">
+                            <h1>Make a Difference</h1>
+                        <p>Your generous donations support our mission to help those in need.</p>
                         </div>
+                    </div>
+
+                    <section class="donation-form">
+                        <form id="payment-form" action="process_payment.php" method="POST">
+                            <label for="amount">Donation Amount:</label>
+                            <input type="number" id="amount" name="amount" placeholder="Enter amount" required>
+
+                            <label>Frequency of Donation:</label>
+                            <select name="frequency" required>
+                                <option value="one-time">One-Time Donation</option>
+                                <option value="monthly">Monthly Donation</option>
+                                <option value="annually">Annual Donation</option>
+                            </select>
+
+                            <h3>Your Information</h3>
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="name" required>
+
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+
+                            <label for="phone">Phone Number:</label>
+                            <input type="tel" id="phone" name="phone" required>
+
+                            <label for="message">Message to NGO (optional):</label>
+                            <textarea id="message" name="message"></textarea>
+
+                            <h3>Payment Options</h3>
+                            <label><input type="radio" name="payment_method" value="card" checked> Credit/Debit Card</label>
+                            <label><input type="radio" name="payment_method" value="paypal"> PayPal</label>
+
+                            <h3>Card Details (if applicable)</h3>
+                            <label for="card_number">Card Number:</label>
+                            <input type="text" id="card_number" name="card_number" required>
+
+                            <label for="expiry">Expiry Date:</label>
+                            <input type="text" id="expiry" name="expiry" placeholder="MM/YY" required>
+
+                            <label for="cvv">CVV:</label>
+                            <input type="text" id="cvv" name="cvv" required>
+
+                            <button type="submit">Donate Now</button>
+                        </form>
                     </section>
                 </div>
             </div>
@@ -111,7 +159,7 @@
                         <div class="navigations">
                             <ul class="navigations-list">
                                 <li><a href="./about.html">About Us</a></li>
-                                <li><a href="#">What We Do</a></li>
+                                <li><a href="./what-we-do.html">What We Do</a></li>
                                 <li><a href="./get-involved.html">Get Involved</a></li>
                             </ul>
                         </div>
@@ -150,7 +198,4 @@
             </footer>
         </div>
     </div>
-
-    <script src="./assets/script.js"></script>
-    <script defer src="./assets/animation.js"></script>
 </body>
