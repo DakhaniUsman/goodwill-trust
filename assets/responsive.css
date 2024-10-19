@@ -483,6 +483,20 @@
   .mobile-navbar {
     display: none;
   }
+
+  .hero-left{
+    width: 40%;
+  }
+
+  .hero-right{
+    width: 50%;
+  }
+
+  .hero-right-container{
+    background-position: left;
+  }
+
+  
 }
 
 /* desktop screen */

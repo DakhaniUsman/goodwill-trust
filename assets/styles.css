@@ -295,7 +295,7 @@
 section {
     width: 100%;
     margin: auto;
-    max-width: 1250px;
+    max-width: 1440px;
     min-height: 100vh;
     padding: 2em 0em;
     /* border: 5px solid green; */
@@ -316,7 +316,7 @@ section {
 
 .hero-left {
     position: relative;
-    width: 35%;
+    width: 25%;
     height: 100%;
     /* border: 2px solid red; */
     display: flex;
@@ -340,8 +340,8 @@ section {
 
 
 .hero-section h1 {
-    font-size: 6em;
-    line-height: 1em;
+    font-size: 4em;
+    line-height: 1.2em;
 }
 
 .text-animation {
