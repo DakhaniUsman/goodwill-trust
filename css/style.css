@@ -608,6 +608,7 @@ ul{
 
 @media (max-width: 767.98px) {
     .page-header {
+        top: 5em;
         padding: 45px 0;
     }
 
@@ -1021,6 +1022,15 @@ ul{
     margin: 25px 0;
 }
 
+@media screen and (max-width: 767.98px) {
+    .facts .facts-item{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
+
 .facts .facts-item i {
     margin-top: 10px;
     font-size: 60px;
@@ -1216,7 +1226,7 @@ ul{
     margin: 0 5px;
     width: 12px;
     height: 12px;
-    border-radius: 0;
+    border-radius: 50%;
     background: #4169e1;
 }
 
