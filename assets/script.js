@@ -7,7 +7,7 @@ hamMenu.addEventListener("click", () => {
   offScreenMenu.classList.toggle("active");
 });
 
-
+    
 // header animation
 
 document.addEventListener('scroll', () => {
